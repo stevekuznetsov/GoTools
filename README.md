@@ -124,7 +124,7 @@ Here's an example key binding which runs "Clean Build" when `<ctrl>+<alt>+b` is 
 
 #### Tests
 
-GoTools integrates the Sublime Text build system with `go test`.
+GoTools integrates the Sublime Text test system with `go test`.
 
 GoTools attempts to "do what you mean" depending on context. For instance, when using "Run Test at Cursor" in a test file which requires an `integration` Go build tag, GoTools will notice this and automatically add `-tags integration` to the test execution.
 
